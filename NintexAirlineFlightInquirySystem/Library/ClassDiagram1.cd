@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="-The abstract class would provide a default service json request and response parser implmentation.&#xD;&#xA;&#xD;&#xA;-The request and response are Proxey pattern to unify the message that passed and returned from services.">
+    <Position X="7.937" Y="0.854" Height="1.063" Width="3.065" />
+  </Comment>
+  <Class Name="NintexAirlineFlightInquirySystem.Library.BaseAirlineInquiryCallParser">
+    <Position X="4.75" Y="1.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Library\BaseAirlineInquiryCallParser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NintexAirlineFlightInquirySystem.Library.AirlineOneInquiryCallParser">
+    <Position X="2.25" Y="3" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Library\AirlineOneInquiryCallParser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NintexAirlineFlightInquirySystem.Library.AirlineTwoInquiryCallParser">
+    <Position X="6.75" Y="3" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Library\AirlineTwoInquiryCallParser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NintexAirlineFlightInquirySystem.Library.AirlineInquiryCallInvoker">
+    <Position X="4.75" Y="5.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>Library\AirlineInquiryCallInvoker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NintexAirlineFlightInquirySystem.Library.AirlineInquiryProxeyRequest">
+    <Position X="14" Y="2.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>BEAAAAAAAAIAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Library\AirlineInquiryProxeyRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NintexAirlineFlightInquirySystem.Library.AirlineInquiryProxeyResponse">
+    <Position X="11" Y="4.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Library\AirlineInquiryProxeyResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NintexAirlineFlightInquirySystem.Library.AirlineInquiryProxeyResponseDetails">
+    <Position X="14" Y="4.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAABAAEQAAAQAQAAAAAAAAAAAAQAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Library\AirlineInquiryProxeyResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NintexAirlineFlightInquirySystem.Library.AirlineServiceProvider">
+    <Position X="13.75" Y="0.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAACAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>Library\AirlineServiceProvider.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
